@@ -1,0 +1,401 @@
+@media screen and (max-width: 760px) {
+    .container {
+        max-width: 360px;
+    }
+
+    /* body {
+        background: #171717;
+    } */
+
+    .nav {
+        display: none;
+    }
+
+    .contacts {
+        display: none;
+    }
+
+    .mobile-menu {
+        display: block;
+        cursor: pointer;
+        width: 31px;
+        height: 30px;
+    }
+
+    .menu {
+        display: none;
+        width: 360px;
+        height: 667px;
+        background: rgba(0, 0, 0, 0.7);
+        backdrop-filter: blur(12.5px);
+        position: absolute;
+        top: 71px;
+        right: 0;
+        padding: 20px;
+    }
+
+    
+
+    .menu-box-course {
+        display: flex;
+        align-items: center;
+    }
+
+    .menu-arrow {
+        margin-left: 5px;
+        width: 10px;
+        height: 5px;
+        cursor: pointer;
+    }
+
+    .menu-item {
+        margin: 0;
+        padding: 0;
+        margin-bottom: 20px;
+    }
+
+    .course-items {
+        display: none;
+    }
+
+    .visible {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .menu-text {
+        list-style: none;
+        margin: 0;
+        margin-top: 10px;
+        margin-left: 20px;
+    }
+
+    .menu-text a {
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 25px;
+
+        color: #FFFFFF;
+        text-decoration: none;
+    }
+
+    .menu-text a:hover {
+        text-decoration: underline;
+        text-decoration-color: #F4D011;
+    }
+
+    .menu-text a:active {
+        text-decoration: none;
+    }
+
+    .menu-title {
+        font-weight: 700;
+        font-size: 16px;
+        line-height: 25px;
+        margin: 0;
+        
+    }
+
+    .education-container {
+        padding-top: 30px;
+    }
+
+    .h2 {
+        font-size: 34px;
+        line-height: 45px;
+        width: auto;
+        margin-bottom: 20px;
+    }
+
+    .education-container {
+        flex-direction: column;
+    }
+
+    .text {
+        font-size: 14px;
+        line-height: 19px;
+    }
+
+    .benefits {
+        flex-direction: column;
+        margin-bottom: 10px;
+    }
+
+    .benefits-item {
+        margin-bottom: 11px;
+    }
+
+    .button-box {
+        flex-direction: column;
+    }
+
+    .button:first-of-type {
+        margin-bottom: 20px;
+    }
+
+    .present-img {
+        width: 280px;
+        height: 274px;
+    }
+
+    .present {
+        width: 150px;
+        height: 150px;
+        background: #F3B516;
+        filter: blur(250px);
+    }
+
+    .h2-tobe {
+        font-size: 32px;
+    }
+
+    .text-mobile {
+        font-size: 16px;
+        line-height: 25px;
+    }
+
+    .courses-we-have {
+        flex-direction: column;
+    }
+
+    .course {
+        width: 320px;
+        margin: 20px auto 0;
+    }
+
+    .h3 {
+        font-size: 20px;
+        line-height: 25px;
+    }
+
+    .percent-mpbile {
+        font-size: 12px;
+        line-height: 15px;
+    }
+
+    .school-box {
+        flex-direction: column;
+    }
+
+    .about-school {
+        width: auto;
+    }
+
+    .rectangle-box {
+        flex-direction: column;
+    }
+
+    .rectangle {
+        align-self: center;
+    }
+
+    .width {
+        width: auto;
+    }
+
+    .price {
+        flex-direction: column;
+        width: auto;
+        height: 116px;
+        padding: 10px;
+    }
+
+    .price-mobile {
+        text-align: center;
+    }
+
+    .person {
+        width: 300px;
+        display: none;
+    }
+
+    .person-info {
+        text-align: center;
+    }
+
+    .h3-school {
+        font-size: 20px;
+        line-height: 25px;
+    }
+
+    .school-benefits {
+        width: auto;
+    }
+
+    .rectangle-popup {
+        display: none;
+    }
+
+    .active {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .cource-button-box {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .button-course {
+        margin-right: 0;
+    }
+
+    .button-course:first-of-type {
+        margin-bottom: 10px;
+    }
+
+    .school {
+        padding-top: 20px;
+        padding-bottom: 30px;
+    }
+
+    .help {
+        padding-bottom: 60px;
+    }
+
+    .help-box {
+        flex-direction: column;
+        margin-top: 20px;
+    }
+
+    .input {
+        width: initial;
+    }
+
+    .form-item {
+        width: auto;
+    }
+
+    .form-item:first-of-type {
+        width: initial;
+        margin-right: 0;
+        margin-bottom: 16px;
+    }
+
+    .form-item-margin {
+        margin-bottom: 10px;
+    }
+
+    .submit {
+        width: initial;
+    }
+
+    .footer-box {
+        flex-direction: column;
+    }
+
+    .messenger-box {
+        margin-bottom: 5px;
+    }
+
+    .footer-item {
+        margin-bottom: 40px;
+    }
+
+    .footer-item:nth-of-type(2) {
+        margin-bottom: 0;
+    }
+
+    .text-margin {
+        margin-top: 10px;
+    }
+
+    .footer-text {
+        margin-bottom: 20px;
+    }
+
+    .opacity {
+        display: none;
+    }
+
+    .box-mobile {
+        flex-direction: column;
+    }
+
+    .footer-text-small {
+        margin-bottom: 20px;
+        font-size: 12px;
+        line-height: 15px;
+    }
+
+    .popup {
+        width: 360px;
+        height: auto;
+    }
+
+    .popup-title {
+        padding: 10px 20px;
+    }
+
+    .cross {
+        width: 15px;
+        height: 15px;
+    }
+
+    .h3-popup {
+        font-size: 20px;
+        line-height: 25px;
+        margin-bottom: 10px;
+    }
+
+    .text-popup {
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 19px;
+        margin-bottom: 10px;
+    }
+
+    .popup-time-box {
+        flex-direction: column;
+        width: auto;
+    }
+
+    .program-box {
+        margin-right: 0;
+        margin-bottom: 20px;
+    }
+
+    .program-title {
+        font-size: 20px;
+        line-height: 25px;
+        margin-bottom: 10px;
+        margin-top: 0;
+    }
+
+    .all-about-program {
+        flex-direction: column;
+    }
+
+    .marceting {
+        padding: 10px;
+    }
+
+    .popup-ul {
+        padding-bottom: 0;
+        margin-top: 22px;  
+        font-size: 14px;
+        line-height: 19px;
+    }
+
+    .popup-li:last-of-type {
+        margin-bottom: 0;
+    }
+
+    .plus-box {
+        padding: 10px 10px 10px 15px;
+    }
+
+    .price-popup {
+        width: auto;
+        height: auto;
+        margin-top: 20px;
+    }
+
+    .round-popup {
+        width: 40px;
+        height: 40px;
+    }
+
+
+}
